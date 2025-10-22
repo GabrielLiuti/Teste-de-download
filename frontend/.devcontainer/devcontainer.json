@@ -1,0 +1,14 @@
+{
+  "name": "FastAPI React Mongo Dev Container",
+  "image": "fastapi_react_mongo_shadcn_base_image_cloud_arm:release-13102025-1",
+  "workspaceFolder": "/workspace",
+  "extensions": [
+    "ms-python.python",
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint"
+  ],
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "forwardPorts": [3000, 8000, 27017]
+}
